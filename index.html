@@ -1,0 +1,479 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Jayesh W. Portfolio</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+        	body{
+	        	background-color: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(32,128,238,1) 100%);;
+	        	color: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(245,245,220,1) 43%, rgba(0,212,255,1) 100%);
+			    font-family:'Poppins',sans-serif;}
+			nav{
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				height: 80px;
+				background-color: lightskyblue;
+				background-attachment: fixed;
+			} 
+			nav ul{
+				display: flex;
+				justify-content: center;
+			} 
+			nav ul li a{
+				text-decoration:none;
+				color: white;	
+			} 
+			nav ul li a:hover{
+				color: black;
+				font-size: 1.0rem;		
+			}   
+			nav ul li{
+				list-style: none;
+				margin: 0 23px;
+
+
+			}
+			main hr{
+				border: 0;
+				background: #9c97f1;
+				height: 1.2px;
+				margin: 50px 84px;
+			
+			}
+			.left{  
+				font-size: 1.5rem;
+			}
+			.firstSection{
+				display: flex;
+				justify-content: space-around;
+				margin: 70px 0;
+				background-attachment: fixed;
+			}
+			.firstSection > div{
+				width: 30%;
+			}
+
+			.leftSection{
+				
+				font-size: 1.5rem;
+				margin: 95px 0;
+
+			}
+			a{ 
+			    text-decoration:none;
+			    color: black;	
+
+			}
+			a:hover{
+			     color: black;    
+			}
+			.btn:hover{
+			     color: black;
+			     border: 2px solid black;    
+     
+
+			}
+
+			.leftSection .button{
+				
+				padding: 40px 0;
+					
+
+			}
+
+			.btn{
+				
+				padding: 10px;
+				background: lightskyblue;
+				color: white;
+				border: 2px solid white;
+				border-radius: 6px;
+				font-size: 15px;
+				cursor: pointer;
+				background-attachment: fixed;	
+			}
+			.rightSection img{
+				width: 120%;
+				margin: 40px 0;
+				background-attachment: fixed;
+
+				
+
+            }
+            .purple{
+				color: rgb(170, 107, 228);
+				
+			}
+			.text-gray{
+				color: gray;
+			}
+			.secondSection{
+				max-width: 80vw;
+				margin: auto;
+				height: 100vh;
+				background-attachment: fixed;
+
+			}
+			.secondSection h1{
+			    font-size: 1.8rem;	
+			
+			}
+			.generic-blockquote{
+				font-family:'Poppins',sans-serif;
+
+			}
+			.thirdSection{
+				max-width: 80vw;
+				margin: auto;
+				height: 90vh;
+				background-attachment: fixed;
+            
+
+            }
+            .container{
+            	max-width: 1080px;
+            	margin-left: auto;
+            	margin-right: auto;
+            	margin-left: 120px;
+            	margin-right: 50px;
+            	background-attachment: fixed;
+            }
+
+			.section-header {
+				margin-bottom: 50px;
+				text-align: left;
+				background-attachment: fixed;
+			}
+			.containner{
+				width: 80%;
+				margin: 50px auto;
+				background-attachment: fixed;
+
+
+            }
+            .contact-box{
+                display: flex;
+				background: #B0C4DE;
+				background-attachment: fixed;
+
+			}
+            .contact-left{
+                flex-basis: 60%;
+                padding: 40px 60px;	
+                background-attachment: fixed;
+
+            }
+            .contact-right{
+                flex-basis: 40%;
+                padding: 40px;
+                background: #6495ED;
+                color: white;
+                background-attachment: fixed;
+            }
+            h1{
+               margin-bottom: 10px;
+
+            }
+            .containner p{
+               margin-bottom: 30px;   
+            }
+            .input-row{
+               display: flex;
+               justify-content: space-between;
+               margin-bottom: 20px;
+               background-attachment: fixed;
+
+            }
+            .input-row .input-group{
+            	flex-basis: 45%;
+
+            }
+            input{
+            	width: 100%;
+            	border: none;
+            	border-bottom: 1px solid #ccc;
+            	outline: none;
+            	padding-bottom: 5px;
+            	background-attachment: fixed;
+            }
+            textarea{
+            width: 100%;
+            border: 1px solid #ccc;
+            outline: none;
+            padding: 10px;
+            box-sizing: border-box;
+            background-attachment: fixed;	
+
+            }
+            label{
+            	margin-bottom: 6px;
+            	display: block;
+            	color: #1c00b5;
+
+            }
+            button{
+            	background: #5F9EA0;
+            	width: 100px;
+            	border: none;
+            	outline: none;
+            	color: white;
+            	height: 35px;
+            	border-radius: 30px;
+            	margin-top:20px;
+            	box-shadow: rgb(137, 148, 153);
+            	background-attachment: fixed;
+
+            }
+			button:hover{
+			     color: black;
+			     border: 2px solid black; 
+			     background-attachment: fixed;	
+            	
+
+            }
+            .contact-left h3{
+            	color: Black;
+            	font-weight: 600;
+            	margin-bottom: 30px;
+            	background-attachment: fixed;
+            }
+            .contact-right h3{
+            	
+            	font-weight: 600;
+            	margin-bottom: 30px;
+            	background-attachment: fixed;
+
+            }
+            tr td:first-child{
+            	padding-right: 20px;
+            	background-attachment: fixed;
+
+            }
+            tr td{
+            	padding-top: 30px;
+            	background-attachment: fixed;	
+            }
+
+            
+          
+		</style>
+
+	</head>
+	<body>
+		<header>
+			<nav>
+			    <div class="left">Jayesh W. Portfolio</div>
+			    <div class="right"></div>
+			        <ul>
+						<li><a href="file:///C:/Users/dell/Desktop/Portfolio/index.html">Home</a></li>
+			        	<li><a href="#personal">About</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contact">Contact Me</a></li>
+			        </ul>
+			</nav>    
+		</header>
+
+		<main>
+			<section class="firstSection">
+				<div class="leftSection">
+					Hi, My name is <span class = "purple">Jayesh Waykar</span>
+					<div> and I am 
+					<span id="element"></span>
+					<br>
+					<br>
+					<a href="Jayesh_Waykar_Resume.pdf" class="btn">Download Resume</a>
+					<a href="https://github.com/Jayeshwaykar"class="btn"> Visit Github </a>
+					     	
+				</div>
+			    </div>
+				<div class="rightSection">
+				<img src="dg.png" alt="">
+				</div>    
+
+			</section>
+            <hr>
+
+			<section class="secondSection">
+				<h1 id="personal">Personal Details</h1>
+				<span class="text-gray">Here's some more info obout me</span>
+				<br>
+				<br>
+				<blockquote class="generic-blockquote">
+								<p class="fz-16">
+
+									 I'm Jayesh Waykar, a passionate and dedicated data scientist based in Pune. With a strong background in Data Science, I specialize in Machine Learning, Deep Learning, and Data Analysis. I can be reached via email. Feel free to connect with me on my LinkedIn Profile to learn more about my professional journey. You can also explore my data science projects on my GitHub Profile and visit my portfolio on Portfolio Website to see examples of my work.
+								</p>
+								
+								<br>
+								<p class="fz-16">
+									  On top of my recent bachelor's in Mechanical Engineering from Pune University, I also recently started an Internship as a data scientist at Itvedant. My work mainly revolves around utilizing machine learning processing to build a more intelligent experience.
+								</p>
+
+				</blockquote>
+				
+
+			</section>
+            <hr>
+            <section class="thirdSection">
+				<h1 id="portfolio">Portfolio </h1>
+				<span class="text-gray">Here's some more info obout portfolio</span>
+				<br>
+				<br>
+				<br>
+				<div class="pos_cen">
+				    <img class ="img_gig" src="github.jpeg" width="50" height="50" style="float: left; margin-right: 20px;margin-top: -15px;">
+
+		
+				    <a href="https://github.com/Jayeshwaykar/Fack-News-Prediction-using-NLP/blob/main/Fake_News_Prediction.ipynb" class="btn">Fack News Prediction using Natural Language Processing </a>
+
+			    </div>
+			    <br>
+			    <br>
+			    <br>
+			    <div class="pos_cen">
+				    <img class ="img_gig" src="github.jpeg" width="50" height="50" style="float: left; margin-right: 20px;margin-top: -15px;">
+
+		
+				    <a href="https://github.com/Jayeshwaykar/Human-and-Horse-Classifier-using-Deep-Learning/blob/main/Deep_Learning_Human_and_hource.ipynb" class="btn">Human and Horse Classifier using Deep Learning</a>
+
+			    </div>
+			    <br>
+			    <br>
+			    <br>
+			    <div class="pos_cen">
+				    <img class ="img_gig" src="github.jpeg" width="50" height="50" style="float: left; margin-right: 20px;margin-top: -15px;">
+
+		
+				    <a href="https://github.com/Jayeshwaykar/Big-Mart-Sales-Using-Machine-Learning/blob/main/Big%20Mart%20Sales%20Prediction%20using%20ML.ipynb" class="btn">Big Mart Sales Using Machine Learning</a>
+
+			    </div>
+			    <br>
+			    <br>
+			    <br>
+				<div class="pos_cen">
+				    <img class ="img_gig" src="github.jpeg" width="50" height="50" style="float: left; margin-right: 20px;margin-top: -15px;">
+
+		
+				    <a href="https://github.com/Jayeshwaykar/Customer-Segmentation-Using-K-Means-Clustering/blob/main/Customer%20Segmentation%20using%20k-means%20clust.ipynb" class="btn">Customer Segmentation Using Machine Learning</a>
+
+			    </div>
+			    <br>
+			    <br>
+			    <br>
+                <div class="pos_cen">
+				    <img class ="img_gig" src="github.jpeg" width="50" height="50" style="float: left; margin-right: 20px;margin-top: -15px;">
+
+		
+				    <a href="https://github.com/Jayeshwaykar/Calories-Burnt-Prediction-using-Machine-Learning/blob/main/Calories%20Burnt%20Prediction%20using%20ML.ipynb" class="btn">Calories Burnt Prediction using Machine Learning</a>
+
+			    </div>
+			  
+      
+			</section>
+            <hr>
+
+            <section>
+            	
+            		<div class="containner">
+            			<h2>Contact Me</h2>
+            			<p> We would love to respond to your queries and help you succeed. feel free to get in touch with us.</p>
+                        <div class="contact-box">
+                        	<div class="contact-left">
+                        		<h3>Send Your Request</h3>
+                        		<form>
+                        			<div class="input-row">
+                        				<div class="input-group">
+                        				     <label>Name</label>
+                        				     <input type="text" placeholder="Jon son">
+                        				</div> 
+                        			
+
+                        				<div class="input-group">
+                        				     <label>Phone</label>
+                        				     <input type="text" placeholder="+ 91 1234567890">
+                        				</div> 
+                        			</div>  
+
+                        			<div class="input-row">
+                        				<div class="input-group">
+                        				     <label>Email</label>
+                        				     <input type="text" placeholder="Jonson@gmail.com">
+                        				</div> 
+                        			
+
+                        				 
+                        			</div> 
+
+                        			<label>Message</label>
+                        			<textarea rows="5" placeholder="Your Massage"></textarea>  	
+                                <button type="submit">SEND</button>
+                        		</form>
+
+                        	</div>
+                        	<div class="contact-right">
+                        		<h3>Reach Me</h3>
+
+                        		<table>
+                        			<tr>
+                        				<td>Email</td>
+                        				<td>jayeshwaykar03@gmail.com</td>
+
+                        			</tr>
+                        			<tr>
+                        				<td>Linkedin</td>
+                        				<td>https://www.linkedin.com/in/jayesh-waykar</td>
+                        			</tr>
+                        			<tr>
+                        				<td>Github</td>
+                        				<td>https://github.com/Jayeshwaykar<br>
+                        					
+                        				</td>
+                        			</tr>
+                        		</table>
+                        	</div>
+                        </div>	
+                	</div>
+
+                		
+                		   
+                           
+                  
+
+			</section>	
+
+
+		</main>
+		
+			
+				
+			<center>
+			<div class="text-rights">
+				     	Copyright &#169;jayeshwaykarportfolio.com | All rights reserved
+			</div>
+            </center>
+
+		</footer>	
+		<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+		<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+       <script>
+         var typed = new Typed('#element', {
+         strings: ['Contemplative coder and analyst.'],
+         typeSpeed: 90,
+        });
+        </script>
+	</body>
+</html>
